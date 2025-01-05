@@ -1,0 +1,315 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(231, 223, 211);
+}
+
+header {
+    margin-top: 100px;
+
+
+}
+
+.container {
+    position: relative;
+    z-index: -2;
+}
+
+
+h1 {
+    font-family: 'Lobster Two';
+    color: rgb(255, 255, 255);
+    font-size: 140px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 15%;
+    margin-right: 62%;
+}
+
+h2 {
+    font-size: 60px;
+    font-family: 'Brush Script';
+    color: #fff;
+    text-align: center;
+    margin-top: -8%;
+    margin-right: 48%;
+
+}
+
+h3 {
+
+    font-family: 'Lobster Two';
+    color: rgb(151, 96, 47);
+    font-size: 62px;
+    letter-spacing: 5px;
+    opacity: 0.9
+}
+
+h4 {
+    font-family: 'Lobster Two';
+    font-size: 35px;
+    color: rgb(151, 96, 47);
+}
+
+h5 {
+    font-family: 'Lobster Two';
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    letter-spacing: 5px;
+    opacity: 0.9
+}
+ caption
+ {
+    font-family: 'Lobster Two';
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    letter-spacing: 5px;
+    opacity: 0.9
+
+ }
+
+h1, h2 span {
+    color: #fff;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.3), 0 0 4px rgba(255, 255, 255, 0.3), 0 0 6px rgba(173, 166, 172, 0.3), 0 0 10px rgba(173, 166, 172, 0.3), 0 0 14px rgba(173, 166, 172, 0.3);
+
+}
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar a {
+    font-family: 'Brush Script';
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar a:hover {
+    color: rgb(255, 87, 87);
+    transform: translateY(-5px);
+}
+
+.nav-bar a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: rgb(255, 200, 87);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-bar a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.nav-bar-2 {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    background-color: purple;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar-2 a {
+    font-family: 'Lobster Two';
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar-2 a:hover {
+    color: rgb(255, 87, 87);
+    transform: translateY(-5px);
+}
+
+.nav-bar-2 a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: rgb(255, 200, 87);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-bar-2 a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.nav-bar-3 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 1;
+}
+
+.nav-bar-3 a {
+    font-family: 'Lobster Two';
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+.nav-bar-3 a:hover {
+    color: rgb(255, 87, 87);
+    transform: translateY(-5px);
+}
+
+.nav-bar-3 a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: rgb(255, 200, 87);
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-bar-3 a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+
+
+}
+
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+}
+
+img {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+p,
+li,
+figcaption {
+    font-family: 'Lobster Two';
+    color: rgb(151, 96, 47);
+    line-height: 1.4;
+    font-size: 20;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+    color: #666;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-container h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.footer-left,
+.footer-middle,
+.footer-right {
+    flex-basis: calc(33.33% - 20px);
+    margin-bottom: 40px;
+}
+
+.footer-middle ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-middle ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer-middle ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-middle ul li a:hover {
+    color: #333;
+}
+
+.footer-right input[type="email"] {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 3px 0 0 3px;
+}
+
+.footer-right button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+
+.footer-right button:hover {
+    background-color: #666;
+}
+
+.footer-bottom {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
+}
